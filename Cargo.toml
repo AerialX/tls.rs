@@ -1,0 +1,19 @@
+[package]
+name = "tls"
+version = "0.1.0"
+edition = "2018"
+
+categories = ["no-std", "embedded"]
+
+build = "build.rs"
+
+[build-dependencies]
+serde = { version = "^1.0.101", features = ["derive"] }
+handlebars = "^2.0.2"
+
+[dependencies]
+r0 = "^0.2.2"
+static_assertions = "^1.0.0"
+
+[features]
+unstable = []
