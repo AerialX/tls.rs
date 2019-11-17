@@ -23,7 +23,7 @@ fn main() {
     }
 
     let tls_data = TlsData {
-        tb_pow2: 4,
+        tb_pow2: 5,
     };
 
     let mut reg = Handlebars::new();
