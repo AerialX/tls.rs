@@ -9,10 +9,10 @@ build = "build.rs"
 
 [build-dependencies]
 serde = { version = "^1.0.101", features = ["derive"] }
-handlebars = "^2.0.2"
+handlebars = "^3.5.4"
 
 [dependencies]
-r0 = "^0.2.2"
+r0 = "^1.0.0"
 static_assertions = "^1.0.0"
 
 [features]
